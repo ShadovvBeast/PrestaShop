@@ -1570,8 +1570,8 @@ function saveCustomerNote(customerId){
 
 			if (r == 'ok') {
 				$('#submitCustomerNote').attr('disabled', true);
+				showSuccessMessage(update_success_msg);
 			}
-			showSuccessMessage(update_success_msg);
 		}
 	});
 }
